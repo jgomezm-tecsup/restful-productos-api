@@ -106,7 +106,6 @@ public class ProductoController {
 	}
 
 
-
 	@PostMapping("/productos")
 	public  ResponseEntity<Producto> crear(
 			@RequestBody Producto request ) throws Exception {
